@@ -1,3 +1,30 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+pathapp_lucky_number:
+    path: /lucky/
+    controller: App\Controller\LuckyController::index
+
+app_lucky:
+    path: /lucky/number
+    controller: App\Controller\LuckyController::number
+
+app_home:
+    path: /home/
+    controller: App\Controller\HomeController::index
+
+home:
+    path: /
+    controller: App\Controller\HomeController::index
+
+app_blog:
+    path: /blog/
+    controller: App\Controller\BlogController::list
+
+app_api:
+    path: /collect/
+    controller: App\Controller\ApiController::index
+
+php_info:
+    path: /php_info/
+    controller: App\Controller\AdminController::displayPhpInfo
